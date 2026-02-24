@@ -31,6 +31,9 @@ Intercom is a single long-running Pear process that participates in three distin
 - **Subnet plane**: deterministic state replication (Autobase/Hyperbee over Hyperswarm/Protomux).
 - **Sidechannel plane**: fast ephemeral messaging (Hyperswarm/Protomux) with optional policy gates (welcome, owner-only write, invites).
 - **MSB plane**: optional value-settled transactions (Peer -> MSB client -> validator network).
+- 
+
+<img src= "/Screenshot_20260224_192806_Chrome.jpg" alternate-text = "App prototype" />
 
 ```text
                           Pear runtime (mandatory)

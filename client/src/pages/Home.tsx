@@ -11,7 +11,8 @@ import {
   ShieldCheck, 
   Zap,
   ArrowRight,
-  Terminal
+  Terminal,
+  CheckCircle2
 } from "lucide-react";
 
 export default function Home() {
@@ -74,21 +75,21 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="text-5xl md:text-7xl lg:text-8xl font-black mb-8 leading-[1.1]"
+              className="text-6xl md:text-8xl lg:text-9xl font-black mb-8 leading-[0.9] tracking-tighter"
             >
               The drop-in <br className="hidden md:block" />
-              <span className="text-gradient">blockchain layer</span> <br className="hidden md:block" />
-              for modern games.
+              <span className="text-gradient-accent">on-chain</span> <br className="hidden md:block" />
+              engine.
             </motion.h1>
             
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto"
+              className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed"
             >
-              A modular on-chain SDK built on the TRAC network with Intercom P2P. 
-              Integrate NFTs, marketplaces, and secure chat just like a payment gateway.
+              The modular TRAC + Intercom SDK. 
+              Deploy NFTs, marketplaces, and secure chat with zero blockchain friction.
             </motion.p>
             
             <motion.div 
